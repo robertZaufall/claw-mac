@@ -4,6 +4,7 @@ Installations steps
 
 ## Basic
 Chrome
+XCode
 
 ## Logins
 - Azure + Office365
@@ -32,9 +33,6 @@ pyenv global 3.12
 brew install uv
 ```
 
-## XCode
-xcode
-
 ## Git
 ```
 brew install git-lfs
@@ -45,18 +43,18 @@ mkdir git
 ```
 
 ## MS + Office
-https://portal.azure.com
-https://portal.office.com/account
-Office
+https://portal.azure.com  
+https://portal.office.com/account  
+Office  
 
 ## AI
-Codex-Desktop
-Codex-Cli
+Codex-Desktop  
+Codex-Cli  
 ```
 npm install -g @openai/codex
 ```
-Claude-Desktop
-Claude-Cli
+Claude-Desktop  
+Claude-Cli  
 ```
 npm install -g @anthropic-ai/claude-code
 ```
