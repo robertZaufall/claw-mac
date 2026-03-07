@@ -58,3 +58,33 @@ Claude-Cli
 ```
 npm install -g @anthropic-ai/claude-code
 ```
+
+## OpenClaw
+```
+brew tap steipete/tap
+```
+```
+brew install steipete/tap/gogcli
+```
+Go to https://console.cloud.google.com/auth/clients  
+Click "Create Client"  
+Application type: "Desktop app"  
+Download the JSON file (usually named client_secret_....apps.googleusercontent.com.json)  
+```
+gog auth credentials ~/Downloads/client_secret_....json
+gog auth add you@gmail.com
+gog calendar list
+```
+```
+brew install steipete/tap/peekaboo  
+/opt/homebrew/bin/peekaboo + terminal.app
+```
+```
+brew install steipete/tap/wacli
+wacli
+```
+```
+brew install steipete/tap/summarize
+brew install steipete/tap/mcporter
+brew install steipete/tap/oracle
+```
