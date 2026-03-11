@@ -3,8 +3,16 @@
 Installations steps
 
 ## Basic
-Chrome
+Chrome, AdGuard
 XCode
+Tailscale
+
+Blender  
+VSCode  
+
+DaisyDisk  
+Onyx (switch on "don't use app nap")  
+Coca  
 
 ## Logins
 - Azure + Office365
@@ -21,6 +29,11 @@ XCode
 echo >> /Users/master/.zprofile
 echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/master/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv zsh)"
+```
+Azure  
+```
+brew install azure-cli
+az login
 ```
 
 ## Node + Python
@@ -53,10 +66,16 @@ Codex-Cli
 ```
 npm install -g @openai/codex
 ```
+
 Claude-Desktop  
 Claude-Cli  
 ```
 npm install -g @anthropic-ai/claude-code
+```
+
+Gemini-Cli
+```
+npm install -g @google/gemini-cli
 ```
 
 ## OpenClaw
