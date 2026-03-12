@@ -61,22 +61,11 @@ https://portal.office.com/account
 Office  
 
 ## AI
-Codex-Desktop  
-Codex-Cli  
-```
-npm install -g @openai/codex
-```
-
-Claude-Desktop  
-Claude-Cli  
-```
-npm install -g @anthropic-ai/claude-code
-```
-
-Gemini-Cli
-```
-npm install -g @google/gemini-cli
-```
+- Codex-Desktop  
+- Codex-Cli `npm install -g @openai/codex`  
+- Claude-Desktop  
+- Claude-Cli `npm install -g @anthropic-ai/claude-code`  
+- Gemini-Cli `npm install -g @google/gemini-cli`  
 
 ## OpenClaw
 ```
