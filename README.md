@@ -11,6 +11,7 @@ Installations steps
 - Office + OneDrive (App Store)
 
 - VSCode (https://code.visualstudio.com)  
+- Obisdian (https://obsidian.md)  
 - DaisyDisk (https://daisydiskapp.com) or Disk Inventory X (https://www.derlien.com)    
 - Onyx (https://www.titanium-software.fr/en/onyx.html) (switch on "don't use app nap")  
 - Blender (https://www.blender.org)  
