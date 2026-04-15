@@ -7,8 +7,11 @@ Installations steps
 - AdGuard
 - XCode (App Store)
 - Tailscale (App Store)
+- Telegram (AppStore)
+- WhatsApp (AppStore)  
 - Coca (App Store)
-- Office + OneDrive (App Store)
+- Office + OneDrive Business (App Store)
+- Windows App (App Store) - Remote Desktop  
 
 - VSCode (https://code.visualstudio.com)  
 - Obisdian (https://obsidian.md)  
