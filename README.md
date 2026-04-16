@@ -3,8 +3,7 @@
 Installations steps
 
 ## Basic
-- Chrome
-- AdGuard
+- Chrome + AdGuard extension  
 - XCode (App Store)
 - Tailscale (App Store)
 - Telegram (AppStore)
