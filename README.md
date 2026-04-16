@@ -13,7 +13,8 @@ Installations steps
 - Office + OneDrive Business (App Store)
 
 - [VSCode](https://code.visualstudio.com)  
-- [Obisdian](https://obsidian.md)  
+- [Obisdian](https://obsidian.md)
+- [LMStudio](https://lmstudio.ai) + `Supergemma4 26B Uncensored v2` model (14.23 GB)
 - [DaisyDisk](https://daisydiskapp.com) or [Disk Inventory X](https://www.derlien.com)    
 - [Onyx](https://www.titanium-software.fr/en/onyx.html) (switch on: "don't use app nap")  
 - [Blender](https://www.blender.org)  
