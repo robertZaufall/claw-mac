@@ -4,13 +4,13 @@ Installations steps
 
 ## Basic
 - [Chrome](https://www.google.com/chrome) + [AdGuard extension](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)  
-- XCode (App Store)
-- Tailscale (App Store)
-- Telegram (AppStore)
-- WhatsApp (AppStore)  
-- Coca (App Store)
+- [XCode](https://apps.apple.com/de/app/xcode/id497799835?l=en-GB&mt=12) (App Store)
+- [Tailscale](https://apps.apple.com/de/app/tailscale/id1475387142?l=en-GB&mt=12) (App Store)
+- [Telegram](https://apps.apple.com/de/app/telegram/id747648890?l=en-GB&mt=12) (AppStore)
+- [WhatsApp](https://apps.apple.com/de/app/whatsapp-messenger/id310633997?l=en-GB) (AppStore)  
+- [Coca](https://apps.apple.com/de/app/coca/id1000808993?l=en-GB&mt=12) (App Store)
+- [Windows App (App Store)](https://apps.apple.com/de/app/windows-app/id1295203466?l=en-GB&mt=12) - Remote Desktop  
 - Office + OneDrive Business (App Store)
-- Windows App (App Store) - Remote Desktop  
 
 - [VSCode](https://code.visualstudio.com)  
 - [Obisdian](https://obsidian.md)  
