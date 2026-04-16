@@ -3,7 +3,7 @@
 Installations steps
 
 ## Basic
-- Chrome + AdGuard extension  
+- [Chrome](https://www.google.com/chrome) + [AdGuard extension](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)  
 - XCode (App Store)
 - Tailscale (App Store)
 - Telegram (AppStore)
@@ -12,11 +12,11 @@ Installations steps
 - Office + OneDrive Business (App Store)
 - Windows App (App Store) - Remote Desktop  
 
-- VSCode (https://code.visualstudio.com)  
-- Obisdian (https://obsidian.md)  
-- DaisyDisk (https://daisydiskapp.com) or Disk Inventory X (https://www.derlien.com)    
-- Onyx (https://www.titanium-software.fr/en/onyx.html) (switch on "don't use app nap")  
-- Blender (https://www.blender.org)  
+- [VSCode](https://code.visualstudio.com)  
+- [Obisdian](https://obsidian.md)  
+- [DaisyDisk](https://daisydiskapp.com) or [Disk Inventory X](https://www.derlien.com)    
+- [Onyx](https://www.titanium-software.fr/en/onyx.html) (switch on: "don't use app nap")  
+- [Blender](https://www.blender.org)  
 
 ## Homebrew (app repository)
 ```
@@ -27,14 +27,13 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 ```
 
 ## Logins (Browser)  
-- Azure (https://portal.azure.com)
-- Office365 (https://portal.office.com/account)  
-- Google Cloud
-- Amazon Shop
-- GitHub
-- X / xAI
-- OpenAI
-- Anthropic (optional)  
+- [Azure](https://portal.azure.com)
+- [Office365](https://portal.office.com/account)  
+- [Google Cloud](https://console.cloud.google.com)
+- [GitHub](https://github.com)
+- [X / xAI](https://x.com)
+- [OpenAI](https://chatgpt.com)
+- [Anthropic](https://claude.ai) (optional)  
 
 ## Cli + Dev apps
 ### Azure  
@@ -63,44 +62,46 @@ mkdir git
 ```
 
 ### AI
-- Codex-Desktop (https://openai.com/codex)  
+- [Codex-Desktop](https://openai.com/codex)  
 - Codex-Cli `npm install -g @openai/codex`  
 - Gemini-Cli `npm install -g @google/gemini-cli`  
 - Claude-Cli `npm install -g @anthropic-ai/claude-code`  
-- Claude-Desktop + Cowork (https://claude.com/product/overview)   
+- [Claude-Desktop + Cowork](https://claude.com/product/overview)   
 
 ## OpenClaw
-- OpenClaw Cli (https://docs.openclaw.ai/start/getting-started)  
+- [OpenClaw Cli](https://docs.openclaw.ai/start/getting-started)  
 ```
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
-- OpenClaw MacOS-App from https://github.com/openclaw/openclaw/releases (ARM64 dmg)
+- [OpenClaw MacOS-App](https://github.com/openclaw/openclaw/releases) (ARM64 dmg)
 - HomeBrew tap for Peter Steinberger Cli Tools
 ```
 brew tap steipete/tap
 ```
 
-### Gmail (gog-cli or gws-cli) - Google Cloud Account needed 
-- Installation on GCP (Google Cloud Platform)
-Go to https://console.cloud.google.com/auth/clients  
+### Gmail (gws-cli or gog-cli) -> Google Cloud Account + project needed!  
+  
+- GCP (Google Cloud Platform) setup  
+Go to [GCP Console](https://console.cloud.google.com/auth/clients)  
 Click "Create Client"  
 Application type: "Desktop app"  
 Download the JSON file (usually named client_secret_....apps.googleusercontent.com.json)  
-
-- gog (Peter Steinberger)  
+  
+- Recommended: gws (Google)  
+```
+brew install googleworkspace-cli
+gws auth setup     # walks you through Google Cloud project config
+gws auth login     # subsequent OAuth login
+```
+  
+- Alternative: gog (Peter Steinberger)  
 ```
 brew install steipete/tap/gogcli
 gog auth credentials ~/Downloads/client_secret_....json
 gog auth add you@gmail.com
 gog calendar list
 ```
-- gws (Google)  
-```
-brew install googleworkspace-cli
-gws auth setup     # walks you through Google Cloud project config
-gws auth login     # subsequent OAuth login
-```
-
+  
 ### peekaboo (Screenshotter)
 ```
 brew install steipete/tap/peekaboo  
@@ -108,13 +109,13 @@ brew install steipete/tap/peekaboo
 Set system permissions (System Settings -> Privacy & Security -> Screen & System Recording
 - /opt/homebrew/bin/peekaboo
 - terminal.app
-
+  
 ### WhatsApp
 ```
 brew install steipete/tap/wacli
 wacli
 ```
-Login using 
+Login using QR code (more on https://github.com/steipete/wacli)
 
 ### Other tools (Summarize, MCP-Cli, Oracle for OpenAI Pro Model)
 ```
