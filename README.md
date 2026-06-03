@@ -5,6 +5,7 @@ Installations steps
 ## Basic
 - [Chrome](https://www.google.com/chrome) + [AdGuard extension](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)  
 - [XCode](https://apps.apple.com/de/app/xcode/id497799835?l=en-GB&mt=12) (App Store)
+- [XCode](https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg) (Download dmg) - Ghostty-based Terminal
 - [Tailscale](https://apps.apple.com/de/app/tailscale/id1475387142?l=en-GB&mt=12) (App Store)
 - [Telegram](https://apps.apple.com/de/app/telegram/id747648890?l=en-GB&mt=12) (AppStore)
 - [WhatsApp](https://apps.apple.com/de/app/whatsapp-messenger/id310633997?l=en-GB) (AppStore)  
@@ -74,13 +75,16 @@ mkdir git
 ```
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
-- [OpenClaw MacOS-App](https://github.com/openclaw/openclaw/releases) (ARM64 dmg)
+
 - HomeBrew tap for Peter Steinberger Cli Tools
 ```
 brew tap steipete/tap
 ```
 
-### Gmail (gws-cli or gog-cli) -> Google Cloud Account + project needed!  
+Optional:  
+- [OpenClaw MacOS-App](https://github.com/openclaw/openclaw/releases) (ARM64 dmg)
+
+### Gmail (Google Cloud Account + project needed!  
   
 - GCP (Google Cloud Platform) setup  
 Go to [GCP Console](https://console.cloud.google.com/auth/clients)  
@@ -88,14 +92,7 @@ Click "Create Client"
 Application type: "Desktop app"  
 Download the JSON file (usually named client_secret_....apps.googleusercontent.com.json)  
   
-- Recommended: gws (Google)  
-```
-brew install googleworkspace-cli
-gws auth setup     # walks you through Google Cloud project config
-gws auth login     # subsequent OAuth login
-```
-  
-- Alternative: gog (Peter Steinberger)  
+- gog-cli (Peter Steinberger)  
 ```
 brew install steipete/tap/gogcli
 gog auth credentials ~/Downloads/client_secret_....json
