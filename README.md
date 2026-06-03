@@ -5,7 +5,7 @@ Installations steps
 ## Basic
 - [Chrome](https://www.google.com/chrome) + [AdGuard extension](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)  
 - [XCode](https://apps.apple.com/de/app/xcode/id497799835?l=en-GB&mt=12) (App Store)
-- [XCode](https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg) (Download dmg) - Ghostty-based Terminal
+- [cmux](https://github.com/manaflow-ai/cmux/releases/latest/download/cmux-macos.dmg) (Download dmg) - Ghostty-based Terminal
 - [Tailscale](https://apps.apple.com/de/app/tailscale/id1475387142?l=en-GB&mt=12) (App Store)
 - [Telegram](https://apps.apple.com/de/app/telegram/id747648890?l=en-GB&mt=12) (AppStore)
 - [WhatsApp](https://apps.apple.com/de/app/whatsapp-messenger/id310633997?l=en-GB) (AppStore)  
